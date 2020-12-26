@@ -1,0 +1,25 @@
+{
+  "name": "sam-spk-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.9.2",
+    "fastify-blipp": "^3.0.0",
+    "fastify-cors": "^5.1.0",
+    "fastify-plugin": "^3.0.0",
+    "knex": "^0.21.13",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  }
+}
